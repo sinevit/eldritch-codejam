@@ -6,6 +6,7 @@ import blueCards from '../src/data/mythicCards/blue'
 
 import './styles/main.scss'
  
+console.log('hi')
 //CONST
  const deckConteiner = document.querySelector('.deck-container');
  let ancient ='';

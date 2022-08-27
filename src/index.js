@@ -3,6 +3,8 @@ import difficulties from '../src/data/difficulties'
 import greenCards from '../src/data/mythicCards/green'
 import brownCards from '../src/data/mythicCards/brown'
 import blueCards from '../src/data/mythicCards/blue'
+
+import './styles/main.scss'
  
 //CONST
  const deckConteiner = document.querySelector('.deck-container');
@@ -233,6 +235,7 @@ function getRandomcard(){
         deck.style.opacity = 0;
         return
     }
+    // console.log(elem.cardFace)
     card.style.backgroundImage = `url(${elem.cardFace})`;
 }
 
